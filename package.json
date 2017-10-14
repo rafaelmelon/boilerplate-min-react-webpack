@@ -1,8 +1,13 @@
 {
-  "name": "react-simple-app",
+  "name": "boilerplate-min-react-webpack",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Rafael Melón <info@rafaelmelon.es> (http://rafaelmelon.es/)",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rafaelmelon/boilerplate-min-react-webpack.git"
+  },
   "scripts": {
     "start": "webpack-dev-server --progress --colors --hot --config ./webpack.config.js",
     "build": "webpack"
